@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>batalla_naval</title>
+</head>
+<body>
+    <script src="Tablero.js"></script>
+    <script>
+    //var tablero = prompt("INGRESA EL NUMERO DE COLUMNAS PARA TU TABLERO");
+    var fila = prompt("INGRESE LAS FILAS QUE QUIERES:");
+    var columna=  prompt("INGRESE LAS COLUMNAS QUE QUIERES:");
+    let objeto = new Tablero(fila,columna);
+    console.log(objeto);
+    var fila2 = prompt("INGRESE LA FILA EN LA QUE VAS A TIRAR");
+    var columna2=  prompt("INGRESE LA COLUMNA EN LA QUE VAS A TIRAR");
+    let objeto2 = new Barcos(fila2,columna2);
+    console.log(objeto2);
+    </script>
+</body>
+</html>
